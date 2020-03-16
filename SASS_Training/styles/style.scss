@@ -1,0 +1,12 @@
+@import "./header";
+@import "./variables";
+
+// header button {
+//   background: $primaryBtn;
+// }
+.contact {
+  // @include flexCenter(row, red);
+  @extend header;
+
+  width: 100% - 20%;
+}
